@@ -1,0 +1,84 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AddressClass<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "AddressClass",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CalculatePI<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "CalculatePI",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DataRange<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "DataRange",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EquationClass<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "EquationClass",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Matrix<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "Matrix",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Menology<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "Menology",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotatitonClass<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "RotatitonClass",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TriangleClass<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "TriangleClass",
+            "projectName": "vscode_java_3f41baa9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VotingClass<vscode_java_3f41baa9>",
+            "request": "launch",
+            "mainClass": "VotingClass",
+            "projectName": "vscode_java_3f41baa9"
+        }
+    ]
+}

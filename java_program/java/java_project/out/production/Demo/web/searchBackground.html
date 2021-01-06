@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1631655_b4re0c0u89b.css">
+    <title>searchBackground</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body{
+            background-image: url(./image/charactorBackground.jpg);
+            text-align: center;
+        }
+        
+        .box{
+            width: 500px;
+            height: 180px;
+            margin: 15% auto;
+            background-color:rgba(0,0,0,.3);
+        }
+
+        .box h1{
+            color:rgb(173,245,252);
+        }
+
+        input{
+            width: 210px;
+            outline: none;
+            border: none;
+            border-bottom:1.5px solid rgb(173,245,252);
+            color: rgb(173,245,252);
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            top: 10px;
+            left: 32%;
+            background-color: transparent;
+        }
+
+        body .content01{
+            height: 40px;
+            margin-top: 15px;
+            position: relative;
+
+        }
+
+        body .content02{
+            height: 40px;
+            position: relative;
+
+        }
+
+        body .iconfont{
+            width: 30px;
+            height: 40px;
+            display: inline-block;
+            font-size: 20px;
+            line-height: 40px;
+            color: rgb(173,245,252);
+            position: absolute;
+            top: 0px;
+            left: 26%;
+        }
+
+        body .i2{
+            font-size: 24px;
+        }
+
+        button{
+            height: 30px;
+            width: 35%;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 15px;
+            animation: ani 3s infinite alternate;
+            transition: 3s;
+            color: rgb(216, 216, 216);
+        }
+
+        @keyframes ani{
+            0%{
+                background-color:rgb(87, 189, 226) ;
+                box-shadow: 5px 5px 5px rgb(221,255,255), -5px -5px 5px rgb(221,255,255), 5px -5px 5px rgb(221,255,255), -5px 5px 5px rgb(221,255,255);
+            }
+            100%{
+            background-color: rgb(1, 20, 167);
+            }
+        }
+
+        button:hover{
+            cursor: pointer;
+            color: rgb(255, 194, 62);
+        }
+
+        button:focus{
+            border: none;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>login</h1>
+        <div class="content01">
+            <i class="iconfont icon-min7 i1"></i>
+            <input type="text" value="username">
+        </div>
+        <div class="content02">
+            <i class="iconfont icon-suo i2"></i>
+            <input type="password" value="password">
+        </div>
+        <a href="#"><button type="submit">login</button></a>
+    </div>
+</body>
+</html>
